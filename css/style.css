@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, a:focus {
+  outline: none;
+}
+
+:active, a:active {
+  outline: none;
+}
+
+header, footer, nav {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 400;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+@font-face {
+  src: url("/fonts/TTNorms-Bold.woff2") format("woff2");
+  font-family: "ttnorms";
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  --accent: #0153FF;
+  --text: #111111;
+  --regular-text: 16px;
+  --lineheight: 1;
+  --userfont: "Inter", sans-serif;
+  --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--userfont);
+  font-size: var(--regular-text);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+.btn {
+  background: #505050;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+.btn:hover {
+  background: #111;
+  color: #a1c4ff;
+  scale: 1.1;
+  transition: 0.6s;
+}
+.btn:active {
+  background: #0153FF;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */

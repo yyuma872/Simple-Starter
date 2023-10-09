@@ -1,0 +1,20 @@
+:root {
+  --accent: #0153FF;
+  --text: #111111;
+  --regular-text: 16px;
+  --lineheight: 1;
+  --userfont: 'Inter', sans-serif;
+  --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--userfont);
+  font-size: var(--regular-text);
+  color: var(--text);
+  overflow-x: hidden;
+
+}
+
+.wrapper {
+
+}
